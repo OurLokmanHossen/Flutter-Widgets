@@ -6,7 +6,7 @@ class ListviewW extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      scrollDirection: Axis.horizontal,
+      // scrollDirection: Axis.horizontal,
       physics: ClampingScrollPhysics(),
       children: [
         Image.network(
