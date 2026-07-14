@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/widgets/animated_container.dart';
 import 'package:flutter_widgets/widgets/clipRRect.dart';
 import 'package:flutter_widgets/widgets/expanded.dart';
+import 'package:flutter_widgets/widgets/image.dart';
 import 'package:flutter_widgets/widgets/listView.dart';
 import 'package:flutter_widgets/widgets/textfeild.dart';
 import 'package:flutter_widgets/widgets/wrap.dart';
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(body: animatedContainer()));
+    return MaterialApp(home: Scaffold(body: MyImage()));
   }
 }
