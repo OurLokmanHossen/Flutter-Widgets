@@ -19,8 +19,14 @@ class _FilterChipWidgetState extends State<FilterChipWidget> {
           return FilterChip(
             selectedColor: Colors.red[100],
             showCheckmark: false,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18),
+            ),
             selected: selectedCategory.contains(category[index]),
-            label: Text(category[index]),
+            label: Text(
+              category[index],
+              style: TextStyle(fontSize: 18, color: Colors.black),
+            ),
             onSelected: (bool value) {
               setState(() {
                 if (value)
