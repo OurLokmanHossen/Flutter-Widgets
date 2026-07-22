@@ -17,6 +17,7 @@ class _CheckBoxWidgetState extends State<CheckBoxWidget> {
         scale: 1.5,
         child: Checkbox(
           activeColor: Colors.green,
+          checkColor: Colors.black,
           value: isChecked,
           onChanged: (bool? checkStatus) {
             setState(() {
